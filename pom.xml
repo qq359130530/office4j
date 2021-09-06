@@ -65,7 +65,7 @@
 			    <groupId>org.jxls</groupId>
 			    <artifactId>jxls-reader</artifactId>
 			    <version>${jxls.reader.version}</version>
-			</dependency> -->
+			</dependency>-->
 
 			<!-- iText -->
 			<dependency>

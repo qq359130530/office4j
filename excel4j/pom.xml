@@ -42,14 +42,14 @@
 			<groupId>xerces</groupId>
 			<artifactId>xercesImpl</artifactId>
 		</dependency>
-		<dependency>
+		<!--<dependency>
 			<groupId>org.jxls</groupId>
 			<artifactId>jxls</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.jxls</groupId>
 			<artifactId>jxls-poi</artifactId>
-		</dependency>
+		</dependency>-->
 	</dependencies>
 	
 </project>
