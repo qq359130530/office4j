@@ -14,6 +14,7 @@
 		<jxls.poi.version>1.0.15</jxls.poi.version>
 		<jxls.reader.version>2.0.3</jxls.reader.version>
 		<itext.version>7.1.16</itext.version>
+		<jfreechart.version>1.5.3</jfreechart.version>
 	</properties>
 	
 	<!-- 依赖管理 -->
@@ -74,6 +75,13 @@
 				<version>${itext.version}</version>
 				<type>pom</type>
 			</dependency>
+
+			<!-- JFreeChart -->
+			<dependency>
+				<groupId>org.jfree</groupId>
+				<artifactId>jfreechart</artifactId>
+				<version>${jfreechart.version}</version>
+			</dependency>
 		</dependencies>
 	</dependencyManagement>
 	
@@ -98,6 +106,7 @@
 	<modules>
 		<module>excel4j</module>
 		<module>pdf4j</module>
+		<module>chart4j</module>
 	</modules>
 
 </project>
