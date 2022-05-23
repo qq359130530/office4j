@@ -110,8 +110,9 @@ public class PdfWriter {
 
 		if (headersStyle == null) {
 			headersStyle = new PdfGridRowStyle();
-			headersStyle.setFont(new PdfTrueTypeFont(new Font("宋体", Font.BOLD,10), true));
-			headersStyle.setTextBrush(PdfBrushes.getBlack());
+			headersStyle.setFont(new PdfTrueTypeFont(new Font("宋体", Font.BOLD + Font.CENTER_BASELINE,8), true));
+			headersStyle.setTextBrush(PdfBrushes.getWhite());
+			headersStyle.setBackgroundBrush(PdfBrushes.getGreen());
 		}
 		grid.getHeaders().applyStyle(headersStyle);
 
