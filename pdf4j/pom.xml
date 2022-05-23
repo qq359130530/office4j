@@ -17,11 +17,10 @@
     </properties>
 
     <dependencies>
-        <!-- iText -->
         <dependency>
-            <groupId>com.itextpdf</groupId>
-            <artifactId>itext7-core</artifactId>
-            <type>pom</type>
+            <groupId>e-iceblue</groupId>
+            <artifactId>spire.pdf</artifactId>
+            <version>3.4.2</version>
         </dependency>
     </dependencies>
 
