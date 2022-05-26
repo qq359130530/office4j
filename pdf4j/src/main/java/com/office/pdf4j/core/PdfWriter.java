@@ -70,7 +70,7 @@ public class PdfWriter {
 			}
 			out = new FileOutputStream(desc);
 		} catch (FileNotFoundException e) {
-			throw new AccessExcelException("输出Excel文件[ " + desc.getPath() + " ]失败！", e);
+			throw new AccessExcelException("输出PDF文件[ " + desc.getPath() + " ]失败！", e);
 		} finally {
 			writeStream(out);
 		}
